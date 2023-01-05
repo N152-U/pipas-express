@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Dt1c-s4cm3x_p0stgr3s",
+    "database": "pipas",
+    "host": "10.11.11.207",
+    "port": "5432",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password":  "Dt1c-s4cm3x_p0stgr3s",
+    "database": "pipas",
+    "host": "10.11.11.207",
+    "port": "5432",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

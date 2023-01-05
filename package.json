@@ -1,0 +1,48 @@
+{
+  "name": "pipas-express",
+  "version": "1.0.0",
+  "description": "Back del Sistema de pipas",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/N152-U/pipas-express.git"
+  },
+  "author": "naralysolis",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "celebrate": "^13.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "moment-range": "^4.0.2",
+    "moment-timezone": "^0.5.34",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "jsdoc": "^3.6.7",
+    "jsdoc-http-plugin": "^0.3.2",
+    "nodemon": "^2.0.6",
+    "sequelize-cli": "^6.2.0",
+    "tui-jsdoc-template": "^1.2.2"
+  }
+}

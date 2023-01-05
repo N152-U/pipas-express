@@ -1,0 +1,13 @@
+.main section article table td.name, .main section article table td.type, .main section article table td.attributes, .main section article table td.default {
+  max-width: 200px;
+}
+footer {
+  background-color: #00b140;
+}
+#resizer {
+  background-color: #00b140;
+}
+.lnb .member-type {
+
+  color: #00b140;
+}
